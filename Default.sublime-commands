@@ -1,0 +1,10 @@
+[
+    {
+        "caption": "AutoAppearance: Sync Appearance Now",
+        "command": "auto_appearance_sync"
+    },
+    {
+        "caption": "AutoAppearance: Restart busctl Monitor",
+        "command": "auto_appearance_restart"
+    }
+]

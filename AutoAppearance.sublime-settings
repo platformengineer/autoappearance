@@ -1,0 +1,15 @@
+{
+    "enabled": true,
+
+    // Path or executable name for busctl. If Sublime was started from a desktop
+    // launcher with a limited PATH, set this to "/usr/bin/busctl".
+    "busctl_binary": "busctl",
+    "busctl_timeout_seconds": 3.0,
+    "sync_debounce_seconds": 0.25,
+
+    // xdg-desktop-portal reports 0 for "no preference".
+    // Accepted values are "light" and "dark".
+    "no_preference": "light",
+
+    "debug": false
+}

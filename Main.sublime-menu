@@ -1,0 +1,27 @@
+[
+    {
+        "caption": "Preferences",
+        "id": "preferences",
+        "children": [
+            {
+                "caption": "Package Settings",
+                "id": "package-settings",
+                "children": [
+                    {
+                        "caption": "AutoAppearance",
+                        "children": [
+                            {
+                                "caption": "Settings",
+                                "command": "edit_settings",
+                                "args": {
+                                    "base_file": "${packages}/AutoAppearance/AutoAppearance.sublime-settings",
+                                    "default": "{\n    $0\n}\n"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

@@ -1,0 +1,54 @@
+name: Bug Report
+description: Report a problem with AutoAppearance.
+title: "[Bug]: "
+labels:
+  - bug
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting a bug. Please include enough detail to reproduce it.
+  - type: textarea
+    id: description
+    attributes:
+      label: What happened?
+      description: Describe the problem and what you expected instead.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: List the smallest steps that trigger the issue.
+      placeholder: |
+        1. Install AutoAppearance
+        2. Change the system appearance
+        3. Observe...
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Console output or logs
+      description: Paste relevant Sublime console output or debug logs.
+      render: text
+  - type: input
+    id: sublime-version
+    attributes:
+      label: Sublime Text version
+      placeholder: "Example: 4169"
+  - type: input
+    id: desktop
+    attributes:
+      label: Desktop environment
+      placeholder: "Example: GNOME 46, KDE Plasma 6, Sway"
+  - type: input
+    id: portal
+    attributes:
+      label: Portal provider
+      placeholder: "Example: xdg-desktop-portal-gnome"
+  - type: textarea
+    id: extra
+    attributes:
+      label: Additional context
+      description: Add screenshots, settings snippets, or other context.

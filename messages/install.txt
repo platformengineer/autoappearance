@@ -1,0 +1,36 @@
+
+    ___         __        ___                                                    
+   /   | __  __/ /_____  /   |  ____  ____  ___  ____ __________ _____  ________ 
+  / /| |/ / / / __/ __ \/ /| | / __ \/ __ \/ _ \/ __ `/ ___/ __ `/ __ \/ ___/ _ \
+ / ___ / /_/ / /_/ /_/ / ___ |/ /_/ / /_/ /  __/ /_/ / /  / /_/ / / / / /__/  __/
+/_/  |_\__,_/\__/\____/_/  |_/ .___/ .___/\___/\__,_/_/   \__,_/_/ /_/\___/\___/ 
+                            /_/   /_/                                            
+
+AutoAppearance is installed.
+
+AutoAppearance watches the xdg-desktop-portal color-scheme setting and switches
+Sublime Text's active theme and color_scheme when your system appearance changes.
+
+Configure your light and dark choices in Preferences.sublime-settings:
+
+{
+    "light_theme": "Default.sublime-theme",
+    "dark_theme": "Default Dark.sublime-theme",
+    "light_color_scheme": "Celeste.sublime-color-scheme",
+    "dark_color_scheme": "Mariana.sublime-color-scheme"
+}
+
+Plugin settings are available from:
+
+Preferences > Package Settings > AutoAppearance > Settings
+
+Use those settings to customize the busctl path, read timeout, debounce delay,
+and how to handle the XDG portal's "no preference" value.
+
+Command palette entries:
+
+- AutoAppearance: Sync Appearance Now
+- AutoAppearance: Restart busctl Monitor
+
+Linux note: AutoAppearance requires busctl and an xdg-desktop-portal provider
+that exposes org.freedesktop.appearance color-scheme.
