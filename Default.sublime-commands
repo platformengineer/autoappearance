@@ -1,17 +1,18 @@
 [
   {
     "caption": "AutoAppearance: Sync Appearance Now",
-    "command": "auto_appearance_sync",
+    "command": "auto_appearance_sync"
   },
   {
     "caption": "AutoAppearance: Restart busctl Monitor",
-    "command": "auto_appearance_restart",
+    "command": "auto_appearance_restart"
   },
   {
     "caption": "Preferences: AutoAppearance Settings",
     "command": "edit_settings",
     "args": {
       "base_file": "${packages}/AutoAppearance/AutoAppearance.sublime-settings",
-    },
-  },
+      "default": "{}"
+    }
+  }
 ]
